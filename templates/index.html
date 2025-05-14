@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% from "bootstrap5/form.html" import render_form %}
+{% extends "base.html" %} {% block content %}
+
+{% include 'navbar.html' %}
+<body data-bs-theme="light">
 
 </body>
-</html>
+
+{% include 'footer.html' %}
+
+{% endblock %}
